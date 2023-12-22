@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2023 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC name=" IC 1 " type="ADAU1452">
+        <Schematic>
+            <Algorithm name="ICInputADAU145X1" friendlyname="ADAU145x Inputs 0-15 " cell="Input1 " location="{X=126, Y=284} " Growth="16 " GrowthB="0 " FS="48000">
+                <Link pin="O_C0_A0_P1_out" dir="out" link="Link0" />
+                <Link pin="O_C0_A0_P2_out" dir="out" link="Link1" />
+            </Algorithm>
+            <Algorithm name="ICInput2ADAU145X1" friendlyname="ADAU145x Inputs 16-31 " cell="Input2 " location="{X=241, Y=342} " Growth="16 " GrowthB="0 " FS="48000">
+                <Link pin="O_C17_A0_P1_out" dir="out" link="Link2" />
+                <Link pin="O_C17_A0_P2_out" dir="out" link="Link3" />
+            </Algorithm>
+            <Algorithm name="ICInput3ADAU145X1" friendlyname="ADAU145x Inputs 32-39 " cell="Input3 " location="{X=321, Y=468} " Growth="8 " GrowthB="0 " FS="48000">
+                <Link pin="O_C34_A0_P1_out" dir="out" link="Link4" />
+                <Link pin="O_C34_A0_P2_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X1" friendlyname="DC-Input " cell="DC1 " location="{X=724, Y=351} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C43_A0_P1_out" dir="out" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X1" friendlyname="Output " cell="Output1 " location="{X=563, Y=261} " Growth="1 " GrowthB="0">
+                <Link pin="I_C52_A0_P1_in" dir="in" link="Link0" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X2" friendlyname="Output " cell="Output2 " location="{X=568, Y=314} " Growth="1 " GrowthB="0">
+                <Link pin="I_C54_A0_P1_in" dir="in" link="Link1" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X3" friendlyname="Output " cell="Output3 " location="{X=570, Y=371} " Growth="1 " GrowthB="0">
+                <Link pin="I_C56_A0_P1_in" dir="in" link="Link2" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X4" friendlyname="Output " cell="Output4 " location="{X=569, Y=426} " Growth="1 " GrowthB="0">
+                <Link pin="I_C58_A0_P1_in" dir="in" link="Link3" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X5" friendlyname="Output " cell="Output5 " location="{X=568, Y=482} " Growth="1 " GrowthB="0">
+                <Link pin="I_C60_A0_P1_in" dir="in" link="Link4" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X6" friendlyname="Output " cell="Output6 " location="{X=574, Y=536} " Growth="1 " GrowthB="0">
+                <Link pin="I_C62_A0_P1_in" dir="in" link="Link5" />
+            </Algorithm>
+            <Algorithm name="GPOAlg3001" friendlyname="General Purpose Output " cell="GPO1 " location="{X=913, Y=361} " Growth="0 " GrowthB="0">
+                <Link pin="I_C49_A0_P1_in" dir="in" link="Link6" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>

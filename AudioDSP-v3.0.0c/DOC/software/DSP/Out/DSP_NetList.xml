@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2023 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC name=" IC 1 " type="ADAU1452">
+        <Schematic>
+            <Algorithm name="ICInputADAU145X1" friendlyname="ADAU145x Inputs 0-15 " cell="Input1 " location="{X=126, Y=284} " Growth="16 " GrowthB="0 " FS="48000">
+                <Link pin="O_C0_A0_P1_out" dir="out" link="Link4" />
+                <Link pin="O_C0_A0_P2_out" dir="out" link="Link3" />
+            </Algorithm>
+            <Algorithm name="ICInput2ADAU145X1" friendlyname="ADAU145x Inputs 16-31 " cell="Input2 " location="{X=241, Y=342} " Growth="16 " GrowthB="0 " FS="48000">
+                <Link pin="O_C17_A0_P1_out" dir="out" link="Link2" />
+                <Link pin="O_C17_A0_P2_out" dir="out" link="Link1" />
+            </Algorithm>
+            <Algorithm name="ICInput3ADAU145X1" friendlyname="ADAU145x Inputs 32-39 " cell="Input3 " location="{X=321, Y=413} " Growth="8 " GrowthB="0 " FS="48000">
+                <Link pin="O_C34_A0_P1_out" dir="out" link="Link0" />
+                <Link pin="O_C34_A0_P2_out" dir="out" link="Link66" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X1" friendlyname="DC-Input " cell="Band32-Sel " location="{X=418, Y=61} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C137_A0_P1_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X2" friendlyname="DC-Input " cell="Band64-Sel " location="{X=626, Y=58} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C71_A0_P1_out" dir="out" link="Link6" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X3" friendlyname="DC-Input " cell="Band128-Sel " location="{X=844, Y=54} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C111_A0_P1_out" dir="out" link="Link12" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X4" friendlyname="DC-Input " cell="Band256-Sel " location="{X=1063, Y=44} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C145_A0_P1_out" dir="out" link="Link18" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X5" friendlyname="DC-Input " cell="Band512-Sel " location="{X=1276, Y=33} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C171_A0_P1_out" dir="out" link="Link24" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X6" friendlyname="DC-Input " cell="Band1k-Sel " location="{X=1493, Y=25} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C197_A0_P1_out" dir="out" link="Link30" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X7" friendlyname="DC-Input " cell="Band2k-Sel " location="{X=1703, Y=18} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C223_A0_P1_out" dir="out" link="Link36" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X8" friendlyname="DC-Input " cell="Band4k-Sel " location="{X=1930, Y=15} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C251_A0_P1_out" dir="out" link="Link42" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X9" friendlyname="DC-Input " cell="Band8k-Sel " location="{X=2153, Y=7} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C279_A0_P1_out" dir="out" link="Link48" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X10" friendlyname="DC-Input " cell="Band16k-Sel " location="{X=2375, Y=0} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C305_A0_P1_out" dir="out" link="Link54" />
+            </Algorithm>
+            <Algorithm name="DCInpAlg145X11" friendlyname="DC-Input " cell="BandSub-Sel " location="{X=843, Y=314} " Growth="0 " GrowthB="0 " FS="48000">
+                <Link pin="O_C343_A0_P1_out" dir="out" link="Link65" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg1" friendlyname="2nd Order Lookup/Slew/Table " cell="Band32 " location="{X=520, Y=139} " Growth="5 " GrowthB="0">
+                <Link pin="I_C87_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C87_A0_P2_in" dir="in" link="Link4" />
+                <Link pin="I_C87_A0_P4_in" dir="in" link="Link3" />
+                <Link pin="I_C87_A0_P6_in" dir="in" link="Link2" />
+                <Link pin="I_C87_A0_P8_in" dir="in" link="Link1" />
+                <Link pin="I_C87_A0_P10_in" dir="in" link="Link0" />
+                <Link pin="O_C87_A0_P3_out" dir="out" link="Link7" />
+                <Link pin="O_C87_A0_P5_out" dir="out" link="Link8" />
+                <Link pin="O_C87_A0_P7_out" dir="out" link="Link9" />
+                <Link pin="O_C87_A0_P9_out" dir="out" link="Link10" />
+                <Link pin="O_C87_A0_P11_out" dir="out" link="Link11" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg11" friendlyname="2nd Order Lookup/Slew/Table " cell="BandSub " location="{X=947, Y=385} " Growth="1 " GrowthB="0">
+                <Link pin="I_C331_A0_P1_in" dir="in" link="Link65" />
+                <Link pin="I_C331_A0_P2_in" dir="in" link="Link66" />
+                <Link pin="O_C331_A0_P3_out" dir="out" link="Link67" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg2" friendlyname="2nd Order Lookup/Slew/Table " cell="Band64 " location="{X=738, Y=132} " Growth="5 " GrowthB="0">
+                <Link pin="I_C47_A0_P1_in" dir="in" link="Link6" />
+                <Link pin="I_C47_A0_P2_in" dir="in" link="Link7" />
+                <Link pin="I_C47_A0_P4_in" dir="in" link="Link8" />
+                <Link pin="I_C47_A0_P6_in" dir="in" link="Link9" />
+                <Link pin="I_C47_A0_P8_in" dir="in" link="Link10" />
+                <Link pin="I_C47_A0_P10_in" dir="in" link="Link11" />
+                <Link pin="O_C47_A0_P3_out" dir="out" link="Link13" />
+                <Link pin="O_C47_A0_P5_out" dir="out" link="Link14" />
+                <Link pin="O_C47_A0_P7_out" dir="out" link="Link15" />
+                <Link pin="O_C47_A0_P9_out" dir="out" link="Link16" />
+                <Link pin="O_C47_A0_P11_out" dir="out" link="Link17" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X6" friendlyname="Output " cell="Output6 " location="{X=2692, Y=288} " Growth="1 " GrowthB="0">
+                <Link pin="I_C62_A0_P1_in" dir="in" link="Link67" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg3" friendlyname="2nd Order Lookup/Slew/Table " cell="Band128 " location="{X=948, Y=125} " Growth="5 " GrowthB="0">
+                <Link pin="I_C85_A0_P1_in" dir="in" link="Link12" />
+                <Link pin="I_C85_A0_P2_in" dir="in" link="Link13" />
+                <Link pin="I_C85_A0_P4_in" dir="in" link="Link14" />
+                <Link pin="I_C85_A0_P6_in" dir="in" link="Link15" />
+                <Link pin="I_C85_A0_P8_in" dir="in" link="Link16" />
+                <Link pin="I_C85_A0_P10_in" dir="in" link="Link17" />
+                <Link pin="O_C85_A0_P3_out" dir="out" link="Link19" />
+                <Link pin="O_C85_A0_P5_out" dir="out" link="Link20" />
+                <Link pin="O_C85_A0_P7_out" dir="out" link="Link21" />
+                <Link pin="O_C85_A0_P9_out" dir="out" link="Link22" />
+                <Link pin="O_C85_A0_P11_out" dir="out" link="Link23" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg4" friendlyname="2nd Order Lookup/Slew/Table " cell="Band256 " location="{X=1170, Y=119} " Growth="5 " GrowthB="0">
+                <Link pin="I_C130_A0_P1_in" dir="in" link="Link18" />
+                <Link pin="I_C130_A0_P2_in" dir="in" link="Link19" />
+                <Link pin="I_C130_A0_P4_in" dir="in" link="Link20" />
+                <Link pin="I_C130_A0_P6_in" dir="in" link="Link21" />
+                <Link pin="I_C130_A0_P8_in" dir="in" link="Link22" />
+                <Link pin="I_C130_A0_P10_in" dir="in" link="Link23" />
+                <Link pin="O_C130_A0_P3_out" dir="out" link="Link25" />
+                <Link pin="O_C130_A0_P5_out" dir="out" link="Link26" />
+                <Link pin="O_C130_A0_P7_out" dir="out" link="Link27" />
+                <Link pin="O_C130_A0_P9_out" dir="out" link="Link28" />
+                <Link pin="O_C130_A0_P11_out" dir="out" link="Link29" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg5" friendlyname="2nd Order Lookup/Slew/Table " cell="Band512 " location="{X=1388, Y=107} " Growth="5 " GrowthB="0">
+                <Link pin="I_C159_A0_P1_in" dir="in" link="Link24" />
+                <Link pin="I_C159_A0_P2_in" dir="in" link="Link25" />
+                <Link pin="I_C159_A0_P4_in" dir="in" link="Link26" />
+                <Link pin="I_C159_A0_P6_in" dir="in" link="Link27" />
+                <Link pin="I_C159_A0_P8_in" dir="in" link="Link28" />
+                <Link pin="I_C159_A0_P10_in" dir="in" link="Link29" />
+                <Link pin="O_C159_A0_P3_out" dir="out" link="Link31" />
+                <Link pin="O_C159_A0_P5_out" dir="out" link="Link32" />
+                <Link pin="O_C159_A0_P7_out" dir="out" link="Link33" />
+                <Link pin="O_C159_A0_P9_out" dir="out" link="Link34" />
+                <Link pin="O_C159_A0_P11_out" dir="out" link="Link35" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg6" friendlyname="2nd Order Lookup/Slew/Table " cell="Band1k " location="{X=1605, Y=99} " Growth="5 " GrowthB="0">
+                <Link pin="I_C185_A0_P1_in" dir="in" link="Link30" />
+                <Link pin="I_C185_A0_P2_in" dir="in" link="Link31" />
+                <Link pin="I_C185_A0_P4_in" dir="in" link="Link32" />
+                <Link pin="I_C185_A0_P6_in" dir="in" link="Link33" />
+                <Link pin="I_C185_A0_P8_in" dir="in" link="Link34" />
+                <Link pin="I_C185_A0_P10_in" dir="in" link="Link35" />
+                <Link pin="O_C185_A0_P3_out" dir="out" link="Link37" />
+                <Link pin="O_C185_A0_P5_out" dir="out" link="Link38" />
+                <Link pin="O_C185_A0_P7_out" dir="out" link="Link39" />
+                <Link pin="O_C185_A0_P9_out" dir="out" link="Link40" />
+                <Link pin="O_C185_A0_P11_out" dir="out" link="Link41" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg7" friendlyname="2nd Order Lookup/Slew/Table " cell="Band2k " location="{X=1815, Y=92} " Growth="5 " GrowthB="0">
+                <Link pin="I_C211_A0_P1_in" dir="in" link="Link36" />
+                <Link pin="I_C211_A0_P2_in" dir="in" link="Link37" />
+                <Link pin="I_C211_A0_P4_in" dir="in" link="Link38" />
+                <Link pin="I_C211_A0_P6_in" dir="in" link="Link39" />
+                <Link pin="I_C211_A0_P8_in" dir="in" link="Link40" />
+                <Link pin="I_C211_A0_P10_in" dir="in" link="Link41" />
+                <Link pin="O_C211_A0_P3_out" dir="out" link="Link43" />
+                <Link pin="O_C211_A0_P5_out" dir="out" link="Link44" />
+                <Link pin="O_C211_A0_P7_out" dir="out" link="Link45" />
+                <Link pin="O_C211_A0_P9_out" dir="out" link="Link46" />
+                <Link pin="O_C211_A0_P11_out" dir="out" link="Link47" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg8" friendlyname="2nd Order Lookup/Slew/Table " cell="Band4k " location="{X=2042, Y=89} " Growth="5 " GrowthB="0">
+                <Link pin="I_C239_A0_P1_in" dir="in" link="Link42" />
+                <Link pin="I_C239_A0_P2_in" dir="in" link="Link43" />
+                <Link pin="I_C239_A0_P4_in" dir="in" link="Link44" />
+                <Link pin="I_C239_A0_P6_in" dir="in" link="Link45" />
+                <Link pin="I_C239_A0_P8_in" dir="in" link="Link46" />
+                <Link pin="I_C239_A0_P10_in" dir="in" link="Link47" />
+                <Link pin="O_C239_A0_P3_out" dir="out" link="Link49" />
+                <Link pin="O_C239_A0_P5_out" dir="out" link="Link50" />
+                <Link pin="O_C239_A0_P7_out" dir="out" link="Link51" />
+                <Link pin="O_C239_A0_P9_out" dir="out" link="Link52" />
+                <Link pin="O_C239_A0_P11_out" dir="out" link="Link53" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg9" friendlyname="2nd Order Lookup/Slew/Table " cell="Band8k " location="{X=2265, Y=81} " Growth="5 " GrowthB="0">
+                <Link pin="I_C267_A0_P1_in" dir="in" link="Link48" />
+                <Link pin="I_C267_A0_P2_in" dir="in" link="Link49" />
+                <Link pin="I_C267_A0_P4_in" dir="in" link="Link50" />
+                <Link pin="I_C267_A0_P6_in" dir="in" link="Link51" />
+                <Link pin="I_C267_A0_P8_in" dir="in" link="Link52" />
+                <Link pin="I_C267_A0_P10_in" dir="in" link="Link53" />
+                <Link pin="O_C267_A0_P3_out" dir="out" link="Link55" />
+                <Link pin="O_C267_A0_P5_out" dir="out" link="Link56" />
+                <Link pin="O_C267_A0_P7_out" dir="out" link="Link57" />
+                <Link pin="O_C267_A0_P9_out" dir="out" link="Link58" />
+                <Link pin="O_C267_A0_P11_out" dir="out" link="Link59" />
+            </Algorithm>
+            <Algorithm name="ParamToneIndexwStepS300Alg10" friendlyname="2nd Order Lookup/Slew/Table " cell="Band16k " location="{X=2487, Y=74} " Growth="5 " GrowthB="0">
+                <Link pin="I_C293_A0_P1_in" dir="in" link="Link54" />
+                <Link pin="I_C293_A0_P2_in" dir="in" link="Link55" />
+                <Link pin="I_C293_A0_P4_in" dir="in" link="Link56" />
+                <Link pin="I_C293_A0_P6_in" dir="in" link="Link57" />
+                <Link pin="I_C293_A0_P8_in" dir="in" link="Link58" />
+                <Link pin="I_C293_A0_P10_in" dir="in" link="Link59" />
+                <Link pin="O_C293_A0_P3_out" dir="out" link="Link60" />
+                <Link pin="O_C293_A0_P5_out" dir="out" link="Link61" />
+                <Link pin="O_C293_A0_P7_out" dir="out" link="Link62" />
+                <Link pin="O_C293_A0_P9_out" dir="out" link="Link63" />
+                <Link pin="O_C293_A0_P11_out" dir="out" link="Link64" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X1" friendlyname="Output " cell="Output1 " location="{X=2681, Y=13} " Growth="1 " GrowthB="0">
+                <Link pin="I_C52_A0_P1_in" dir="in" link="Link60" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X2" friendlyname="Output " cell="Output2 " location="{X=2686, Y=66} " Growth="1 " GrowthB="0">
+                <Link pin="I_C54_A0_P1_in" dir="in" link="Link61" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X3" friendlyname="Output " cell="Output3 " location="{X=2688, Y=123} " Growth="1 " GrowthB="0">
+                <Link pin="I_C56_A0_P1_in" dir="in" link="Link62" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X4" friendlyname="Output " cell="Output4 " location="{X=2687, Y=178} " Growth="1 " GrowthB="0">
+                <Link pin="I_C58_A0_P1_in" dir="in" link="Link63" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X5" friendlyname="Output " cell="Output5 " location="{X=2686, Y=234} " Growth="1 " GrowthB="0">
+                <Link pin="I_C60_A0_P1_in" dir="in" link="Link64" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>
