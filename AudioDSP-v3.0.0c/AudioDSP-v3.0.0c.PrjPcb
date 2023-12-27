@@ -463,7 +463,7 @@ UniqueID=AD5153A4-68FC-42DC-ADD7-058E9FDBB92D
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=25
+VariationCount=33
 Variation1=Designator=J11_CTRL|UniqueId=\VUBOPNGB\ZJXUINIL|Kind=1|AlternatePart= 
 Variation2=Designator=U2_POW|UniqueId=\NCABPVHP\LADCIJFV|Kind=1|AlternatePart= 
 Variation3=Designator=U1_POW|UniqueId=\NCABPVHP\BUQGCMIL|Kind=1|AlternatePart= 
@@ -489,6 +489,14 @@ Variation22=Designator=J12A_CTRL|UniqueId=\VUBOPNGB\TLKFOVEN|Kind=1|AlternatePar
 Variation23=Designator=J12B_CTRL|UniqueId=\VUBOPNGB\FYVTBUHS|Kind=1|AlternatePart= 
 Variation24=Designator=J12_CTRL|UniqueId=\VUBOPNGB\TFFMKQDB|Kind=1|AlternatePart= 
 Variation25=Designator=J11_CTRL|UniqueId=\VUBOPNGB\WZRLYADG|Kind=1|AlternatePart= 
+Variation26=Designator=J1|UniqueId=\FDNUDNTD\XKAYJPFD|Kind=1|AlternatePart= 
+Variation27=Designator=J2|UniqueId=\FDNUDNTD\JQOXSKZQ|Kind=1|AlternatePart= 
+Variation28=Designator=J3|UniqueId=\FDNUDNTD\ZJGGYNDA|Kind=1|AlternatePart= 
+Variation29=Designator=J4|UniqueId=\FDNUDNTD\CCPTJJDB|Kind=1|AlternatePart= 
+Variation30=Designator=J5|UniqueId=\FDNUDNTD\TJDWVYSZ|Kind=1|AlternatePart= 
+Variation31=Designator=J6|UniqueId=\XQUOKVOI\FRPYGSTO|Kind=1|AlternatePart= 
+Variation32=Designator=J7|UniqueId=\XQUOKVOI\ASQFZQMX|Kind=1|AlternatePart= 
+Variation33=Designator=J8|UniqueId=\XQUOKVOI\INTNDXPW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
