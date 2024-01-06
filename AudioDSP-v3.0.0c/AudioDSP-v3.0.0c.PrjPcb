@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=For Assembly
 
 [Preferences]
 PrefsVaultGUID=
@@ -462,7 +463,7 @@ UniqueID=AD5153A4-68FC-42DC-ADD7-058E9FDBB92D
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=33
+VariationCount=35
 Variation1=Designator=J11_CTRL|UniqueId=\VUBOPNGB\ZJXUINIL|Kind=1|AlternatePart= 
 Variation2=Designator=U2_POW|UniqueId=\NCABPVHP\LADCIJFV|Kind=1|AlternatePart= 
 Variation3=Designator=U1_POW|UniqueId=\NCABPVHP\BUQGCMIL|Kind=1|AlternatePart= 
@@ -496,6 +497,8 @@ Variation30=Designator=J5|UniqueId=\FDNUDNTD\TJDWVYSZ|Kind=1|AlternatePart=
 Variation31=Designator=J6|UniqueId=\XQUOKVOI\FRPYGSTO|Kind=1|AlternatePart= 
 Variation32=Designator=J7|UniqueId=\XQUOKVOI\ASQFZQMX|Kind=1|AlternatePart= 
 Variation33=Designator=J8|UniqueId=\XQUOKVOI\INTNDXPW|Kind=1|AlternatePart= 
+Variation34=Designator=J11_CTRL|UniqueId=\VUBOPNGB\THFDJZEN|Kind=1|AlternatePart= 
+Variation35=Designator=J14_CTRL|UniqueId=\VUBOPNGB\DGQKFKJX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -591,10 +594,14 @@ DocumentPath=Project Outputs for AudioDSP-v2.0\Design Rule Check - AudioDSP-2.ht
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for AudioDSP-v3.0\Design Rule Check - AudioDSP-3.html
+DocumentPath=Project Outputs for AudioDSP-v3.0.0c\Design Rule Check - AudioDSP-3.0.html
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=Project Outputs for AudioDSP-v3.0\Design Rule Check - AudioDSP-3.html
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=Project Outputs for AudioDSP-v2.0\AudioDSP-v2.0 - Pick and Place\Pick Place for AudioDSP-2.0(For Assembly).csv
 DItemRevisionGUID=
 
@@ -1613,11 +1620,11 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$ComponentIndex_$SheetDesignator
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\TZBTBOVD
-DocumentName0=MCU_Block.SchDoc
+UniqueIDPath0=\DALQEJYB
+DocumentName0=PLL_Block.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=16
+Order0=11
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
@@ -1637,11 +1644,11 @@ Order2=15
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\DALQEJYB
-DocumentName3=PLL_Block.SchDoc
+UniqueIDPath3=\YCHEGXES
+DocumentName3=ADC_Interface.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=11
+Order3=20
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
@@ -1661,35 +1668,35 @@ Order5=14
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\YCHEGXES
-DocumentName6=ADC_Interface.SchDoc
+UniqueIDPath6=\FDNUDNTD
+DocumentName6=IN_Connectors.SchDoc
 IsEnabled6=1
-SelectionScope6=All
-Order6=20
+SelectionScope6=Only Selected Parts
+Order6=13
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\FDNUDNTD
-DocumentName7=IN_Connectors.SchDoc
+UniqueIDPath7=\RLXDRKKR
+DocumentName7=LPF_Interface.SchDoc
 IsEnabled7=1
-SelectionScope7=Only Selected Parts
-Order7=13
+SelectionScope7=All
+Order7=24
 IndexEnabled7=0
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=\RLXDRKKR\RFMLTSND
-DocumentName8=LPF_Block.SchDoc
+UniqueIDPath8=\YCHEGXES\TPCJARWW
+DocumentName8=ADC_Block.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=21
+Order8=17
 IndexEnabled8=0
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\YCHEGXES\TPCJARWW
-DocumentName9=ADC_Block.SchDoc
+UniqueIDPath9=\RLXDRKKR\RFMLTSND
+DocumentName9=LPF_Block.SchDoc
 IsEnabled9=1
 SelectionScope9=All
-Order9=17
+Order9=21
 IndexEnabled9=0
 IndexStartValue9=1
 Suffix9=
@@ -1701,19 +1708,19 @@ Order10=12
 IndexEnabled10=0
 IndexStartValue10=1
 Suffix10=
-UniqueIDPath11=\NDBOBEGM
-DocumentName11=DSP_Block.SchDoc
+UniqueIDPath11=\TZBTBOVD
+DocumentName11=MCU_Block.SchDoc
 IsEnabled11=1
 SelectionScope11=All
-Order11=26
+Order11=16
 IndexEnabled11=0
 IndexStartValue11=1
 Suffix11=
-UniqueIDPath12=\RLXDRKKR
-DocumentName12=LPF_Interface.SchDoc
+UniqueIDPath12=\NDBOBEGM
+DocumentName12=DSP_Block.SchDoc
 IsEnabled12=1
 SelectionScope12=All
-Order12=24
+Order12=26
 IndexEnabled12=0
 IndexStartValue12=1
 Suffix12=
